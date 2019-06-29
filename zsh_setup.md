@@ -131,8 +131,17 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ```
+My Terminal Preview
 
-## Customization with ZSH icons
+
+![Preview 1](images/terminal_1.png?raw=true "Terminal Preview")
+
+
+![Preview 2](images/terminal_2.png?raw=true "Terminal 2 Preview")
+
+
+
+## :fire: Customization with Nerd Font Icons
 
 ```
 # VCS config
@@ -160,7 +169,7 @@ POWERLEVEL9K_VCS_GIT_GITLAB_ICON= $'\uf09b'
 
 ```
 ```
-Ruby config
+# Ruby Icon config
 
 POWERLEVEL9K_CUSTOM_RUBY_FOREGROUND="red"
 POWERLEVEL9K_CUSTOM_RUBY_BACKGROUND="white"
@@ -170,15 +179,15 @@ POWERLEVEL9K_CUSTOM_GRIN_BACKGROUND="white"
 
 ```
 ```
-# Rails config
+# Rails Icon config
 
 POWERLEVEL9K_CUSTOM_RAILS="echo -n '\ue73b' "
 POWERLEVEL9K_CUSTOM_RAILS_FOREGROUND="red"
 POWERLEVEL9K_CUSTOM_RAILS_BACKGROUND="white"
 ```
-```
 
-#git lab config
+```
+# Git lab Icon config
 
 POWERLEVEL9K_CUSTOM_GIT_LAB="echo -n '\uf296'"
 POWERLEVEL9K_CUSTOM_GIT_LAB_FOREGROUND="blue"
@@ -187,12 +196,11 @@ POWERLEVEL9K_CUSTOM_GIT_LAB_BACKGROUND="white"
 ```
 
 ```
-# java config
+# Java Icon config
 
 POWERLEVEL9K_CUSTOM_JAVA="echo -n '\ue781'"
 POWERLEVEL9K_CUSTOM_JAVA_FOREGROUND="yellow"
 POWERLEVEL9K_CUSTOM_JAVA_BACKGROUND="white"
-
 ```
 
 ```
@@ -208,7 +216,7 @@ POWERLEVEL9K_VCS_OUTGOING_CHANGES_ICON='\u2191'
 
 ```
 ```
-# custom sass icon
+# Custom Sass Icon
 
 POWERLEVEL9K_CUSTOM_SASS="echo -n '\ue74b'"
 POWERLEVEL9K_CUSTOM_SASS_FOREGROUND="pink"
@@ -238,14 +246,15 @@ POWERLEVEL9K_OS_ICON_BACKGROUND="white"
 POWERLEVEL9K_OS_ICON_FOREGROUND="red"
 ```
 ```
-# vue config 
+# Vue js Icon 
 
 POWERLEVEL9K_CUSTOM_VUE="echo -n '\ufd42'"
 POWERLEVEL9K_CUSTOM_VUE_FOREGROUND="green"
 POWERLEVEL9K_CUSTOM_VUE_BACKGROUND="white"
 ```
+
 ```
-# ubuntu icon config
+# Ubuntu icon config
 
 POWERLEVEL9K_CUSTOM_UBUNTU="echo -n '\uf31c' Junip"
 POWERLEVEL9K_CUSTOM_UBUNTU_BACKGROUND="white"
@@ -253,6 +262,7 @@ POWERLEVEL9K_CUSTOM_UBUNTU_FOREROUND="red"
 ```
 ```
 # custom sass icon
+
 POWERLEVEL9K_CUSTOM_SASS="echo -n '\ue74b'"
 POWERLEVEL9K_CUSTOM_SASS_FOREGROUND="pink"
 POWERLEVEL9K_CUSTOM_SASS_BACKGROUND="white"
