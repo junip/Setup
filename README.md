@@ -7,10 +7,11 @@ We sometimes encounter a problem during fresh installation of any software or fo
 
 
 Currently Contains Support for 
-- Git 
-- Rails 
-- Ruby 
-- Npm 
+- [Git](https://github.com/junipdewan/Setup/blob/master/git.md) 
+- [Rails](https://github.com/junipdewan/Setup/blob/master/Rails.md) 
+- [Ruby](https://github.com/junipdewan/Setup/blob/master/Ruby.md) 
+- [Zsh](https://github.com/junipdewan/Setup/blob/master/zsh_setup.md)
+- [Npm](https://github.com/junipdewan/Setup/blob/master/npm.md) 
 
 
 ## Contribution 
