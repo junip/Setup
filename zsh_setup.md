@@ -1,7 +1,16 @@
 :computer: Jazz Up your terminal with Zsh
 
-### :sparkles: Installation ZSH for macOS
+## :sparkles: Installation ZSH for macOS
 --------------------
+My Terminal Preview
+
+
+![Preview 1](images/terminal_1.png?raw=true "Terminal Preview")
+
+
+![Preview 2](images/terminal_2.png?raw=true "Terminal 2 Preview")
+
+
 
 ```
 1. Install Homebrew
@@ -23,6 +32,12 @@ brew install zsh
 sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh
 ```
 
+```
+4. Install iTerm2 for macOS
+
+brew cask install iterm2
+
+```
 ### :sparkles: Installation For LINUX
 
 ```
@@ -57,6 +72,8 @@ chsh -s $(which zsh)
 1. Install Powerline
 
 sudo apt install fonts-powerline
+
+
 ```
 
 ```
@@ -72,12 +89,32 @@ sudo vi  ~/.zshrc
 
  # Mkdir 
  - mkdir -p ~/.local/share/fonts
- # install
+ # install for linux
+
  - cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+
+ # install for macOS
+
+ cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+
+ # install using Homebrew
+
+ brew tap homebrew/cask-fonts
+ 
+ brew cask install font-hack-nerd-font
 
 ``` 
 
-For icons in terminal install the powerlevel9k theme 
+```
+4. install powerline font
+
+$ git clone https://github.com/powerline/fonts.git
+$ cd fonts
+$ ./install.sh
+
+```
+
+## :arrow_forward: For icons in terminal install the powerlevel9k theme 
 
 ```
 powerlevel 9k theme styles your prompt with coloured segments for different purposes and can include the Nerd Font programming icons.
@@ -87,7 +124,31 @@ powerlevel 9k theme styles your prompt with coloured segments for different purp
 
 ```
 git clone https://github.com/bhilburn/powerlevel9k.git ~/powerlevel9k
+
 echo 'source  ~/powerlevel9k/powerlevel9k.zsh-theme' >> ~/.zshrc
+
+```
+# for macOS with homebrew
+
+1. brew tap sambadevi/powerlevel9k
+2. brew install powerlevel9k
+3. brew install powerlevel9k@0.6.3
+
+4. echo "source /usr/local/opt/powerlevel9k@0.6.3/powerlevel9k.zsh-theme" >> ~/.zshrc
+
+```
+# macOS with homebrew
+
+
+```
+
+### Install powerlevel10k theme its more faster than powerlevel9k and it renders fast 
+
+```
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+
+# Then edit your ~/.zshrc and set ZSH_THEME="powerlevel10k/powerlevel10k".
+
 ```
 
 ### Set the font in `.zshrc` file
@@ -119,7 +180,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 
 ## Plugins in zsh 
 
-- zsh autosuggestion
+### :gift: zsh autosuggestion
 
 ```
 #installation
@@ -131,15 +192,20 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ```
-My Terminal Preview
 
+### :gift: zsh syntax highlighting
 
-![Preview 1](images/terminal_1.png?raw=true "Terminal Preview")
+```
+# clone it 
 
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-![Preview 2](images/terminal_2.png?raw=true "Terminal 2 Preview")
+# add to your zsh file  
+plugins =(
+    zsh-syntax-highlighting
+)
 
-
+```
 
 ## :fire: Customization with Nerd Font Icons
 
@@ -278,4 +344,4 @@ POWERLEVEL9K_CUSTOM_HTML_FOREGROUND="013"
 POWERLEVEL9K_CUSTOM_HTML_BACKGROUND="white"
 
 ```
-Enjoy zsh :rocket:
+:rocket:  Enjoy zsh 

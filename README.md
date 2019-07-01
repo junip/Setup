@@ -16,7 +16,7 @@ Currently Contains Support for
 
 ## Contribution 
 
- You can add more setup guide that you use reguilarly.
+ You can add more setup guide that you use regularly.
 
 
 
