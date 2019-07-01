@@ -132,9 +132,14 @@ echo 'source  ~/powerlevel9k/powerlevel9k.zsh-theme' >> ~/.zshrc
 
 1. brew tap sambadevi/powerlevel9k
 2. brew install powerlevel9k
-3. brew install powerlevel9k@0.6.3
 
-4. echo "source /usr/local/opt/powerlevel9k@0.6.3/powerlevel9k.zsh-theme" >> ~/.zshrc
+If you want to load powerlevel9k in your zsh simply add the following line to your .zshrc:
+
+  source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+
+Alternatively you can run this command to append the line to your .zshrc
+
+  echo "source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme" >> ~/.zshrc
 
 ```
 # macOS with homebrew
