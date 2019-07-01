@@ -10,6 +10,8 @@ My Terminal Preview
 
 ![Preview 2](images/terminal_2.png?raw=true "Terminal 2 Preview")
 
+![Preview 3](images/terminal_3.png?raw=true "Terminal 3 Preview")
+
 
 
 ```
