@@ -40,6 +40,25 @@ sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh
 brew cask install iterm2
 
 ```
+### :ok_hand: Install Oh My Zsh
+
+```
+Install OhMyZsh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+```
+Check version
+
+zsh --version
+```
+```
+Upgradation of OhMyZsh
+
+upgrade_oh_my_zsh
+```
+
 ### :sparkles: Installation For LINUX
 
 ```
