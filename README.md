@@ -14,7 +14,7 @@ Currently Contains Support for
 - [Ruby](https://github.com/junipdewan/Setup/blob/master/Ruby.md) 
 - [Zsh](https://github.com/junipdewan/Setup/blob/master/zsh_setup.md)
 - [Npm](https://github.com/junipdewan/Setup/blob/master/npm.md)
-- [Fzf](https://github.com/junipdewan/Setup/blob/master/fzf.md)
+- [Fzf](https://github.com/junipdewan/Setup/blob/master/fzf_setup.md)
 
 
 ## Contribution 
