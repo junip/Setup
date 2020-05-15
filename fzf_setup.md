@@ -8,3 +8,14 @@ Download and `install fzf` for commands fuzzy finder
 ```
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 ```
+
+## Forgit Setup
+- Forgit only works if you have already installed the **fzf** 
+- [forgit](https://github.com/wfxr/forgit)
+- directly add the following commands to your bash/zsh file.(make sure you have curl installed)
+
+```sh
+# for bash / zsh
+source <(curl -s https://raw.githubusercontent.com/wfxr/forgit/master/forgit.plugin.zsh)
+
+```
