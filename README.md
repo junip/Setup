@@ -13,7 +13,8 @@ Currently Contains Support for
 - [Rails](https://github.com/junipdewan/Setup/blob/master/Rails.md) 
 - [Ruby](https://github.com/junipdewan/Setup/blob/master/Ruby.md) 
 - [Zsh](https://github.com/junipdewan/Setup/blob/master/zsh_setup.md)
-- [Npm](https://github.com/junipdewan/Setup/blob/master/npm.md) 
+- [Npm](https://github.com/junipdewan/Setup/blob/master/npm.md)
+- [Fzf][https://github.com/junipdewan/Setup/blob/master/fzf.md]
 
 
 ## Contribution 
