@@ -208,25 +208,40 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 
 ### :gift: zsh autosuggestion
 
+1. Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
+
+```sh
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
-#installation
 
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions 
+2. Add the plugin to the list of plugins for Oh My Zsh to load (inside `~/.zshrc`):
 
-# Add to your zshrc file
- 
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+  ```sh
+  plugins=(zsh-autosuggestions)
+  ```
 
-```
+## Manual (Git Clone)
+
+1. Clone this repository somewhere on your machine. This guide will assume `~/.zsh/zsh-autosuggestions`.
+
+  ```sh
+  git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+  ```
+
+2. Add the following to your `.zshrc`:
+
+  ```sh
+  source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+  ```
 
 ### :gift: zsh syntax highlighting
 
+1. Clone it 
 ```
-# clone it 
-
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
-# add to your zsh file  
+```
+2. Add to your zsh file  
+```
 plugins =(
     zsh-syntax-highlighting
 )
