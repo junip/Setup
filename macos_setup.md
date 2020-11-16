@@ -18,9 +18,35 @@ brew install git
 
 4. Install VS code extensions 
 
+- Better comments
+- Bracket pair colorizer.
+- Eslint
+- Git file histroy by Rodrigo pmbo
+- Tab nine
+- path intellisense.
+- Quokka.js
+- Markdown preview enhanced.
+- Material Icon theme.
+
 6. Install ZSH 
 
+```
+brew install zsh
+```
+
+```
+Instal the ohmyzsh framework
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 7. Install powerlevel 10k
+
+Install the theme for zsh
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
 
 8. Install NVM
 ```
@@ -31,7 +57,9 @@ then install the script add the following codes to your respective profile.
 
 ```
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
+
+
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 ```
 
